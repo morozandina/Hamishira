@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2752991719240619715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2752991719240619712}
+  - component: {fileID: 2752991719240619713}
+  m_Layer: 0
+  m_Name: SpawnerAbilites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2752991719240619712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752991719240619715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 87648642678895101}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2752991719240619713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752991719240619715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89621937180841c4bbca660f6d7f42c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hero: {fileID: 0}
+  AbilityBlock: {fileID: 6781642155936088999, guid: b3879d17954f9664a859e6f5082c4774,
+    type: 3}
+  AbilityUI: {fileID: 0}
+  ImageUI: {fileID: 8249444781895737865, guid: 2c32b7326fccb3746943fe2d7a016cfc, type: 3}
+  UltaUI: {fileID: 0}
+  Abilities:
+  - abilitySprite: {fileID: 9190269165565408456, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 0
+    maxProbability: 8
+    abilityInfo: Burn
+    abilityIndex: fx
+    id: 0
+  - abilitySprite: {fileID: -3426013569692456266, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 9
+    maxProbability: 12
+    abilityInfo: Acid
+    abilityIndex: ulta
+    id: 1
+  - abilitySprite: {fileID: -546283193903416644, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 13
+    maxProbability: 18
+    abilityInfo: Instant kill
+    abilityIndex: fx
+    id: 2
+  - abilitySprite: {fileID: 8876574172368462992, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 19
+    maxProbability: 23
+    abilityInfo: Speed ++
+    abilityIndex: fx
+    id: 3
+  - abilitySprite: {fileID: 2936297452827557357, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 24
+    maxProbability: 27
+    abilityInfo: Extra Jump ++
+    abilityIndex: fx
+    id: 4
+  - abilitySprite: {fileID: -1018344715232989748, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 28
+    maxProbability: 32
+    abilityInfo: Heal
+    abilityIndex: ulta
+    id: 5
+  - abilitySprite: {fileID: -2965935090866284989, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 33
+    maxProbability: 37
+    abilityInfo: Damage ++
+    abilityIndex: fx
+    id: 6
+  - abilitySprite: {fileID: -6709297098398510617, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 38
+    maxProbability: 40
+    abilityInfo: Poison
+    abilityIndex: fx
+    id: 7
+  - abilitySprite: {fileID: 3968690685106425249, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 41
+    maxProbability: 44
+    abilityInfo: Shield
+    abilityIndex: fx
+    id: 8
+  - abilitySprite: {fileID: 4428438776647771915, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 45
+    maxProbability: 48
+    abilityInfo: Shield ++
+    abilityIndex: ulta
+    id: 9
+  - abilitySprite: {fileID: -7536224820614473050, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 49
+    maxProbability: 54
+    abilityInfo: Increse HP ++
+    abilityIndex: fx
+    id: 10
+  - abilitySprite: {fileID: -4903742496003365810, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 55
+    maxProbability: 59
+    abilityInfo: Speed 3++
+    abilityIndex: fx
+    id: 11
+  - abilitySprite: {fileID: -7457074064353357722, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 60
+    maxProbability: 69
+    abilityInfo: Armor
+    abilityIndex: fx
+    id: 12
+  - abilitySprite: {fileID: 3769648853581483966, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 70
+    maxProbability: 80
+    abilityInfo: Small heal
+    abilityIndex: fx
+    id: 13
+  - abilitySprite: {fileID: -1864923596074085348, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 81
+    maxProbability: 89
+    abilityInfo: Medium heal
+    abilityIndex: fx
+    id: 14
+  - abilitySprite: {fileID: -6215961878032753849, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 90
+    maxProbability: 96
+    abilityInfo: Big heal
+    abilityIndex: fx
+    id: 15
+  - abilitySprite: {fileID: -3764037187166778717, guid: a7750908238dfe44f9d3b914d4427965,
+      type: 3}
+    minProbability: 97
+    maxProbability: 100
+    abilityInfo: Dual Sword
+    abilityIndex: ulta
+    id: 16
+  ShowAbilitiesInfo: {fileID: 7876342653176934228, guid: 75c747b311d0b214e99e4094310b0ae6,
+    type: 3}
+  AbilityPosition: []
+  SpawnSound: {fileID: 7218800047709117018}
+--- !u!1 &7033720874685242016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 87648642678895101}
+  - component: {fileID: 7218800047709117018}
+  m_Layer: 0
+  m_Name: SpawnSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &87648642678895101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7033720874685242016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2752991719240619712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &7218800047709117018
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7033720874685242016}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -143308531024756352, guid: fd2014f5fe6d03e428bdabc255d9fd5c,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6087ea501576e9d4788bc96027c63141, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
